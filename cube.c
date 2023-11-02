@@ -107,9 +107,9 @@ int main() {
       putchar(k % width ? buffer[k] : 10);
     }
 
-    A += 0.05;
-    B += 0.05;
-    C += 0.01;
+    A += 0.01;  // Zmieniono wartość przyrostu obrotu A
+    B += 0.01;  // Zmieniono wartość przyrostu obrotu B
+    C += 0.01;  // Zmieniono wartość przyrostu obrotu C
     usleep(8000 * 2);
   }
   return 0;
